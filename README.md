@@ -46,7 +46,7 @@ npm run build <serviceName>
 
 #### package.json 내부에서 프로젝트별 커멘트 실행
 
-```json
+```
 "scripts": {
   "yarn-install": "yarn install", // 젠킨스에서 yarn으로 npm_modules를 설치하기 위한 스크립트
   "start": "scripts/script.sh start",
