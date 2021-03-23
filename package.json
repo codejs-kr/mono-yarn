@@ -1,0 +1,17 @@
+{
+  "name": "mono-yarn",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "services/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "yarn": "1.22.10"
+  },
+  "scripts": {
+    "yarn-install": "yarn install",
+    "start": "scripts/script.sh start",
+    "build": "scripts/script.sh build"
+  }
+}
